@@ -1,0 +1,27 @@
+.img__main{
+    width: 100%;
+    height: 32rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.92;
+    background-image: url("../Images/pizza4.jpg");
+}
+
+.img__head{
+    font-size: 3.4em;
+    font-weight: 700;
+    margin-top: 10%;
+    color: white;
+
+}
+
+.img__p{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    color: #40db69;
+    margin-top: -2%;
+    font-weight: 600;
+
+}

@@ -1,0 +1,48 @@
+.card {
+    @apply border hover:border-blue-400 h-[400px] w-80 rounded-lg overflow-hidden
+}
+
+.card__img {
+    @apply h-72 w-96 rounded-t-md
+    
+}
+
+.card__img:hover {
+    transform: scale(1.1);
+    filter: brightness(60%);
+}
+
+.card__img:hover{
+    transition: transform 0.3s linear;
+}
+
+.card__btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 30%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.card__btn {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.card__btn:hover {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+
+.card__price{
+    font-weight: 30px;
+}
