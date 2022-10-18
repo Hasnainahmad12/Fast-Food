@@ -1,6 +1,6 @@
 .img__main{
     width: 100%;
-    height: 32rem;
+    height: 34rem;
     display: flex;
     flex-wrap: wrap;
     background-size: cover;
@@ -11,7 +11,7 @@
 
 .img__head{
     font-size: 3.4em;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 10%;
     color: white;
 
@@ -19,9 +19,9 @@
 
 .img__p{
     font-family: 'Tangerine', serif;
-    font-size: 48px;
+    font-size: 45px;
     color: #40db69;
-    margin-top: -2%;
+    margin-top: -6%;
     font-weight: 600;
 
 }

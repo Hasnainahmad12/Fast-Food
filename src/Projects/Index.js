@@ -4,7 +4,7 @@ import "./Styles/Index.css";
 import Cards from "./Components/Cards";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+//import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import piza from "./Images/Piza.jpg";
 import piza1 from "./Images/Piza1.jpg";
@@ -16,10 +16,10 @@ import img1 from "./Images/fast2.jpg";
 import img2 from "./Images/fast3.jpg";
 import img3 from "./Images/fast4.jpg";
 
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Address from "./Pages/Address";
-import Contact from "./Pages/Contact";
+// import Home from "./Pages/Home";
+// import About from "./Pages/About";
+// import Address from "./Pages/Address";
+// import Contact from "./Pages/Contact";
 import Main from "./Components/Main";
 
 const data = [
@@ -84,18 +84,21 @@ const data = [
 const Index = () => {
   return (
     <React.Fragment>
-      <BrowserRouter>
+      <Navbar />
+      {/* 
+    <BrowserRouter>
         <Navbar />
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/contacts" element={<Cards />} />
           <Route path="/address" element={<Address />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
 
       <br />
+*/}
 
       <Main />
 
